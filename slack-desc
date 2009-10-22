@@ -1,0 +1,11 @@
+qrupdate: QRUpdate (A library for fast updates of QR)
+qrupdate:
+qrupdate: qrupdate is a Fortran library for fast updates of QR and
+qrupdate: Cholesky decompositions.
+qrupdate:
+qrupdate:
+qrupdate:
+qrupdate:
+qrupdate:
+qrupdate:
+qrupdate: Packaged by Georgi D. Sotirov <gdsotirov@dir.bg>
