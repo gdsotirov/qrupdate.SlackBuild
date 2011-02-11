@@ -1,5 +1,5 @@
-aaa_elflibs >= 13.0 | gcc-4.3.3
+aaa_elflibs >= 13.1 | gcc-4.4.4
 blas
-gcc-gfortran >= 4.3.3
-glibc-solibs >= 2.9
-lapack >= 3.2.1
+gcc-gfortran >= 4.4.4
+glibc-solibs >= 2.11.1
+lapack >= 3.2.2
