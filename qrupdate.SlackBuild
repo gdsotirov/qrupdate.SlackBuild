@@ -20,10 +20,10 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: qrupdate.SlackBuild,v 1.2 2011/02/11 10:14:20 gsotirov Exp $
+# $Id: qrupdate.SlackBuild,v 1.3 2011/10/22 15:27:51 gsotirov Exp $
 #
 
-. ../slack-package.conf
+. ../../slack-package.conf
 
 NAME=qrupdate
 VERSION=1.1.1
@@ -64,7 +64,9 @@ CFLAGS=$SLKCFLAGS \
 make -j4 solib || exit 1 
 
 # Install
-make PREFIX=$PKG/usr install-shlib
+PREFIX=$PKG/usr \
+LIBDIR=lib${LIBDIRSUFFIX} \
+make -e install-shlib
 
 # Prepare the package
 ( cd $PKG; strip_lib )
