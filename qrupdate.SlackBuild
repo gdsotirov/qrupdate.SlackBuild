@@ -58,7 +58,7 @@ patch --backup --strip=1 --suffix=.orig < $CWD/${NAME}-${VERSION}.diff || exit 4
 
 # Configure, build and install
 CFLAGS="$SLKCFLAGS" \
-make --jobs 4 solib || exit 5
+make --jobs solib || exit 5
 
 # Install
 PREFIX=$PKG/usr \
