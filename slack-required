@@ -1,5 +1,4 @@
 aaa_glibc-solibs >= 2.33
-blas >= 3.10.0
 gcc >= 11.2.0
 gcc-gfortran >= 11.2.0
 lapack >= 3.10.1
